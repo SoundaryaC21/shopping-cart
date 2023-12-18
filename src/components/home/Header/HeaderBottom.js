@@ -26,7 +26,7 @@ const HeaderBottom = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [showSearchBar, setShowSearchBar] = useState(false);
-
+  console.log(showSearchBar);
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
   };
